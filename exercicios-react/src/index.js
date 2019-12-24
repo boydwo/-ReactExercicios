@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PrimeiroComponente from "./componentes/primeiroComponente";
 
 const elemento = document.getElementById("root");
-ReactDOM.render(<h1>Olas react</h1>, elemento);
+ReactDOM.render(
+  <div>
+    <PrimeiroComponente />
+  </div>,
+  elemento
+);
