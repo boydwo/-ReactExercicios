@@ -4,7 +4,7 @@ export default class Contador extends Component {
   state = {
     numero: 0
   };
-
+  //arrow fuctions usando set state para alterar props
   maisUm = () => {
     this.setState({ numero: this.state.numero + 1 });
   };
