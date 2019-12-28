@@ -12,6 +12,7 @@ export default props => {
     <div>
       <h1>{contador}</h1>
       <h1>{status}</h1>
+      <button onClick={() => setContador(contador - 1)}>Dec</button>
       <button onClick={() => setContador(contador + 1)}>Inc</button>
     </div>
   );
